@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/electric.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section>
+                <h1>Electricidade Básica</h1>
+            </section>
+
+            <section>
+
+                <section>
+                    <h2>O que é a Electricidade?</h2>
+                    <img style="max-height: 300px;" src="images/electricity.jpg" />
+                </section>
+
+                <section>
+                    <h2>E a Eletrocussão?</h2>
+                    <img style="max-height: 300px;" src="images/electrocution.png" />
+                </section>
+
+                <section>
+                    <h2>A Tomada Eléctrica</h2>
+                    <h3>Dá choque?</h3>
+                    <img class="fragment" style="max-height: 300px;" src="images/plug-shock.png" />
+                </section>
+
+                <section>
+                    <h2>E uma Pilha?</h2>
+                    <img style="max-height: 300px;" src="images/battery.png" />
+                </section>
+
+                <section>
+                    <h2>E se for a Bateria do Carro?</h2>
+                    <img style="max-height: 300px;" src="images/car-battery.png" />
+                </section>
+
+            </section>
+
+            <section>
+                <section>
+                    <h2>Afinal o que é a Electricidade ???</h2>
+                    <span class="fragment">
+                        <p>Movimentação de cargas eléctricas</p>
+                        <img style="max-height: 100px;" src="images/question.jpg" />
+                    </span>
+                    <p class="fragment">Carga é uma propriedade da matéria, tal como massa, volume ou densidade. A carga pode ser de dois tipos, positiva(+) ou negativa(-)</p>
+                    <p class="fragment">Na realidade, esta é uma questão complexa e para a qual não existe uma resposta definitiva, mas apenas representações abstratas de como a electricidade interage com o meio ambiente</p>
+                </section>
+
+                <section>
+                    <h2>Átomo</h2>
+                    <p>Bloco básico de construção da vida e da matéria</p>
+                    <span class="fragment">
+                        <p>O físico Dinamarquês <i>Niels Bohr</i> introduziu em 1913 um modelo do átomo que nos permite estudar a electricidade:</p>
+                        <img style="max-height: 150px;" src="images/atom-bohr.png" />
+                    </span>
+                    <p class="fragment">Um átomo de cobre consiste num nucleo com 29 cargas positivas (protões) rodeado por um numero igual de cargas negativas (electrões)</p>
+                </section>
+
+                <section>
+                    <h2>Corrente Eléctrica</h2>
+                    <p>Cargas differentes atraem-se</p>
+                    <img style="max-height: 50px;" src="images/charge-attraction.png" />
+                    <p>Movimentação de cargas eléctricas</p>
+                    <img style="border: none;" src="images/electrical-current.gif" />
+                </section>
+
+            </section>
+
+            <section>
+
+                <section>
+                    <h2>Estudo Básico da</h2>
+                    <h2> Corrente Eléctrica</h2>
+                    <img src="images/ohms-law.png" />
+                    <h3 class="fragment">Voltagem, Corrente, Resistencia e a Lei de Ohm</h3>
+                    <span class="fragment">
+                        <img style="max-height: 120px ; float: right; border: none; margin-left: 10px; margin-top: 15px;" src="images/water-tank.png" />
+                        <p>Para descrever voltagem, corrente e resistencia, vamos utilizar um reservatório de agua como analogia, em que a carga eléctrica é representada pela quantidade de água</p>
+                    </span>
+                </section>
+
+                <section>
+                    <h2>Voltagem</h2>
+                    <h3>Tensão ou Diferença de Potencial</h3>
+                    <p>Pode ser representada pela pressão da água no bocal do tanque:</p>
+                    <img style="max-height: 250px;" src="images/voltagem.png" />
+                    <p>A unidade de medida é o <strong>Volt (V)</strong>, em homenagem ao físico Italiano <i>Alessandro Volta</i></p>
+                </section>
+
+                <section>
+                    <h3>Amperagem ou Intensidade de Corrente</h3>
+                    <p>Pode ser representada como a quantidade de água que flui pelo bocal do tanque por unidade de tempo. Quanto maior for a pressão maior o fluxo de corrente e vice-versa.</p>
+                    <img style="max-height: 200px; float: center;" src="images/corrente1.png" />
+                    <img style="max-height: 200px; float: center;" src="images/corrente2.png" />
+                    <p>A unidade de medida é o <strong>Ampere (A)</strong>, em homenagem ao matemático e físico <i>Francês André-Marie Ampère</i>.</p>
+                    <p>`1A=6.241*10^18` electrões por segundo</p>
+                </section>
+
+                <section>
+                    <h2>Resistencia</h2>
+                    <p>Assumindo uma pressão igual, não é possivel fazer passar a mesma quantidade de água por um bocal estreito ou por um bocal largo</p>
+                    <img src="images/resistence.png" />
+                    <p>Esta resistencia ao fluxo é medida em <strong>Ohm (&#8486;)</strong>, em homenagem ao físico alemão <i>Georg Simon Ohm</i></p>
+                </section>
+
+                <section>
+                    <h2>Lei de Ohm</h2>
+                    <p>Combinando as medidas de Voltagem, currente e resistência,</p>
+                    <img style="float:left; max-height: 300px; margin-right: 20px;" src="images/ohms-law-water.png" />
+                    <p style="text-align: left;">Ohm desenvolveu a formula `V=R*I`, sendo que:</p>
+                    <ul>
+                        <li>V = Voltagem em volts</li>
+                        <li>I = Currente em amperes</li>
+                        <li>R = Resistencia em ohms</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Corrente Electrica</h2>
+                    <p>O fluxo da corrente electrica foi representado no sentido inverso ao fluxo de electrões por<i>Benjamin Franklink</i> </p>
+                    <img style="border:none; max-height: 300px; float:center;" src="images/ohms-law-battery.png" />
+                    <img style="border:none; max-height: 300px; float:center;" src="images/ohms-law-circuit.jpg" />
+                </section>
+
+            </section>
+
+            <section>
+                <h2>E a bateria do nosso carro?</h2>
+                <ul>
+                    <li class="fragment">Contrações musculares ocorrem a partir de 0.01 amperes </li>
+                    <li class="fragment">Efeitos irreversíveis podem ocorrer a partir de 0.2 ampreres</li>
+                    <li class="fragment">Correntes a partir dos 0.5 amperes podem ser fatais</li>
+                    <li class="fragment">Em condições óptimas, a resistência oferecida pelo corpo humano pode ser tao elevada como 100 000 Ohms</li>
+                    <li class="fragment">Pele molhada pode baixar a resistencia do corpo humano até valores tão baixos como 1 000 Ohms</li>
+                    <li class="fragment">Em condições normais, a resistência do corpo humano assume valores na casa dos 50 000 Ohms</li>
+                </ul>
+                <h4 style="margin-top: 50px;" class="fragment">É só fazer as contas...</h4>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            history: true,
+
+            math: {
+                mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+                config: 'AM_CHTML' // See http://docs.mathjax.org/en/latest/config-files.html
+            },
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [{
+                src: 'plugin/notes/notes.js',
+                async: true
+            }, {
+                src: 'plugin/math/math.js',
+                async: true
+            }]
+        });
+    </script>
+</body>
+
+</html>
